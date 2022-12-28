@@ -1,4 +1,3 @@
-import { red } from "@material-ui/core/colors";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import profilePicture from "../files/Profilepic.jpg";
