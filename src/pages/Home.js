@@ -1,9 +1,7 @@
+import { red } from "@material-ui/core/colors";
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import { Typewriter } from "react-simple-typewriter";
-import profilePicture from "../pictures/Profilepic.jpg";
+import profilePicture from "../files/Profilepic.jpg";
 import "../styles/Home.css";
 
 function Home() {
@@ -18,41 +16,31 @@ function Home() {
 				/>
 				<h2> Hello, I'm Kyle Chen. </h2>
 				<p className="prompt">
-					I am a {""}
-					<Typewriter
-						words={["developer", "runner", "gamer"]}
-						loop={true}
-						typeSpeed={70}
-						deleteSpeed={50}
-						delaySpeed={1000}
-					/>
+					I am {""}
+					<span style={{ color: "blue", fontWeight: "bold" }}>
+						<Typewriter
+							words={[
+								"a CS Student @ Western University ",
+								"an aspiring Software Developer",
+								"a recreational runner",
+								"a gamer, playing on the Western LoL Team ",
+								"a cat lover",
+							]}
+							loop={true}
+							typeSpeed={80}
+							deleteSpeed={60}
+							delaySpeed={1000}
+						/>
+					</span>
 				</p>
+
+				<span>
+					<button className="button"> Download Resume </button>
+				</span>
 
 				<div className="prompt">
 					<p>A software developer with a passion for learning and creating.</p>
-					<LinkedInIcon
-						className="icons"
-						onClick={(event) =>
-							window.open("https://www.linkedin.com/in/kyleechen/", "_blank")
-						}
-					/>
-					<EmailIcon
-						className="icons"
-						onClick={(event) => (window.location = "mailto:kchen727@uwo.ca")}
-					/>
-					<GithubIcon
-						className="icons"
-						onClick={(event) =>
-							window.open("https://github.com/elyknehc", "_blank")
-						}
-					/>
 				</div>
-			</div>
-			<div className="skills">
-				<h1> Technologies </h1>
-				<p> Front-End: </p>
-
-				<p> Languages: </p>
 			</div>
 		</div>
 	);

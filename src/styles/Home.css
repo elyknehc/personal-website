@@ -1,3 +1,14 @@
+.button {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background: green;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+}
 .portrait {
 	height: 250px;
 	clip-path: circle();
@@ -20,7 +31,7 @@
 	text-align: center;
 	background-color: #95908f;
 	color: #eff7f7;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 }
 
 .skills {
@@ -37,7 +48,8 @@
 }
 
 .about .prompt {
-	font-size: 20px;
+	font-size: 25px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .prompt svg {
 	font-size: 60px;
