@@ -3,16 +3,18 @@ import "../styles/Technologies.css";
 
 function Technologies() {
 	return (
-		<div>
-			<h1>
-				<div className="technology-stack-content">
-					<div className="technology-stack-box">
-						<h2> Languages: </h2>
-					</div>
-					<div className="technology-stack-box"></div>
-					<div className="technology-stack-box"></div>
+		<div className="technology">
+			<div className="technology-stack-content">
+				<div className="technology-stack-box">
+					<h2>Languages: </h2>
 				</div>
-			</h1>
+				<div className="technology-stack-box">
+					<h2>Frameworks / Libraries </h2>
+				</div>
+				<div className="technology-stack-box">
+					<h2> Developer Tools </h2>
+				</div>
+			</div>
 		</div>
 	);
 }

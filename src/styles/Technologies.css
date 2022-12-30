@@ -1,18 +1,26 @@
+.technology {
+	padding: 0;
+	margin: 0;
+	background-image: url("../files/banner.png");
+}
+
 .technology-stack-content {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	padding: 30px;
-	gap: 2rem;
+	padding: 40px;
+	gap: 5rem;
 }
+
 .technology-stack-box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
 	background: var(--container-color);
 	border-radius: 1rem;
 	border-style: double;
+	background-color: white;
 	transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .technology-stack-box:hover {
@@ -33,7 +41,7 @@
 
 .technology-stack-box h2 {
 	font-size: 1.1rem;
-	font-weight: 500;
+	font-weight: bold;
 	margin: 0.5rem 0;
 	color: var(--main-color);
 }

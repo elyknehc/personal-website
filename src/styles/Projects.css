@@ -1,4 +1,6 @@
 .projects {
+	background-image: url("../files/banner2.jpg");
+	background-size: 100% 100%;
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -30,6 +32,7 @@
 	margin: 40px;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 	text-align: center;
+	background-color: #b5eaff;
 }
 .projectItem:hover {
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -49,6 +52,7 @@
 
 .projectItem h1 {
 	font-size: 25px;
+	color: black;
 }
 
 @media only screen and (max-width: 1300px) {

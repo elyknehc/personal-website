@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import profilePicture from "../files/Profilepic.jpg";
+import Kyle_Chen_Resume from "../files/resume.pdf";
 import "../styles/Home.css";
 
 function Home() {
@@ -16,25 +17,30 @@ function Home() {
 				<h2> Hello, I'm Kyle Chen. </h2>
 				<p className="prompt">
 					I am {""}
-					<span style={{ color: "blue", fontWeight: "bold" }}>
+					<span style={{ color: "#5fb3f8", fontWeight: "bold" }}>
 						<Typewriter
 							words={[
-								"a CS Student @ Western University ",
-								"an aspiring Software Developer",
-								"a recreational runner",
-								"a gamer, playing on the Western LoL Team ",
-								"a cat lover",
+								"a CS and Business Student @ Western University.",
+								"an aspiring Software Developer.",
+								"a recreational runner.",
+								"a collegiate esports player.",
+								"a cat lover.",
 							]}
 							loop={true}
-							typeSpeed={80}
-							deleteSpeed={60}
-							delaySpeed={1000}
+							typeSpeed={100}
+							deleteSpeed={80}
+							delaySpeed={1100}
 						/>
 					</span>
 				</p>
 
 				<span>
-					<button className="button"> Download Resume </button>
+					<button
+						className="button"
+						onClick={(event) => window.open(Kyle_Chen_Resume, "_blank")}
+					>
+						Download Resume
+					</button>
 				</span>
 
 				<div className="prompt">
