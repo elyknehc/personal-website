@@ -1,7 +1,6 @@
 .technology {
-	padding: 0;
-	margin: 0;
 	background-image: url("../files/banner.png");
+	height: calc(100vh - 100px);
 }
 
 .technology-stack-content {

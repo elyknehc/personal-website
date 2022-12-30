@@ -8,9 +8,13 @@ function ProjectDisplay() {
 	const { id } = useParams();
 	const project = projectList[id];
 	return (
-		<div className="project">
+		<div className="project icon">
 			<h1> {project.name} </h1>
-			<img src={project.image} alt="project" />
+			<img
+				src={project.image}
+				alt="project"
+				onClick={(event) => window.open(project.link, "_blank")}
+			/>
 			<p>
 				<strong>Skills: {project.skills}</strong>
 			</p>
