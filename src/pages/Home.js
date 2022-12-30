@@ -27,9 +27,9 @@ function Home() {
 								"a cat lover.",
 							]}
 							loop={true}
-							typeSpeed={100}
+							typeSpeed={75}
 							deleteSpeed={80}
-							delaySpeed={1100}
+							delaySpeed={1200}
 						/>
 					</span>
 				</p>

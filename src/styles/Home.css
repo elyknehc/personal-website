@@ -58,6 +58,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+	.portrait {
+		height: 200px;
+	}
 	.about h2 {
 		font-size: 40px;
 	}

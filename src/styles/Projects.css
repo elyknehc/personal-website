@@ -1,5 +1,6 @@
 .projects {
-	background-image: url("../files/banner2.jpg");
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-image: url("../files/banner.png");
 	background-size: 100% 100%;
 	width: 100%;
 	height: auto;
@@ -51,7 +52,7 @@
 }
 
 .projectItem h1 {
-	font-size: 25px;
+	font-size: 20px;
 	color: black;
 }
 

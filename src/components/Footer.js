@@ -25,7 +25,7 @@ function Footer() {
 				/>
 			</div>
 
-			<p> &copy; 2022 kylechen.com </p>
+			<p> 2022 &copy; Developed by Kyle Chen </p>
 		</div>
 	);
 }
