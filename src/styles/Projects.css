@@ -36,10 +36,13 @@
 	text-align: center;
 	background-color: #b5eaff;
 }
+
 .projectItem:hover {
-	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-	transition: 0.3s ease-in;
-	cursor: pointer;
+	color: black;
+	background: #49273f;
+	box-shadow: 0 0 10px lightblue, 0 0 10px #49273f, 0 0 10px #49273f;
+	transform: scale(1.05);
+	transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .projectItem .bgImage {

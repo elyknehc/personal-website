@@ -24,6 +24,14 @@
 	border-radius: 10px;
 }
 
+.project img:hover {
+	color: black;
+	background: #49273f;
+	box-shadow: 0 0 10px lightblue, 0 0 10px #49273f, 0 0 10px #49273f;
+	transform: scale(1.05);
+	transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .project p {
 	font-size: 40px;
 	color: white;
