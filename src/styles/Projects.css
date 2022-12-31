@@ -39,6 +39,7 @@
 
 .projectItem:hover {
 	color: black;
+	cursor: pointer;
 	background: #49273f;
 	box-shadow: 0 0 10px lightblue, 0 0 10px #49273f, 0 0 10px #49273f;
 	transform: scale(1.05);
