@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import profilePicture from "../files/Profilepic.jpg";
-import Kyle_Chen_Resume from "../files/resume.pdf";
+import Kyle_Chen_Resume from "../files/Kyle_Chen_Resume.pdf";
 import "../styles/Home.css";
 
 function Home() {
