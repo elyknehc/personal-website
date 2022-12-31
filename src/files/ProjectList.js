@@ -2,6 +2,7 @@ import Project1 from "../files/Project1.png";
 import Project2 from "../files/Project2.png";
 import Project3 from "../files/Project3.png";
 import Project4 from "../files/Project4.png";
+import Project5 from "../files/Project5.png";
 
 export const projectList = [
 	{
@@ -28,10 +29,10 @@ export const projectList = [
 		skills: "Java, Graphs",
 		link: "https://github.com/elyknehc/graphpathfinder",
 	},
-	// {
-	// 	// name: "New Project",
-	// 	// image: Project4,
-	// 	// skills: "Future",
-	// 	// link: "www.google.ca",
-	// },
+	{
+		name: "Personal Website",
+		image: Project5,
+		skills: "React, CSS",
+		link: "https://github.com/elyknehc/personal-website",
+	},
 ];

@@ -42,3 +42,12 @@
 	font-size: 60px;
 	color: white;
 }
+
+@media only screen and (max-width: 1200px) {
+	.project {
+		height: 100%;
+	}
+	.project svg {
+		padding-bottom: 50px;
+	}
+}

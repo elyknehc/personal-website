@@ -57,17 +57,17 @@ h2 {
 	font-size: 0.9rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+	.technology {
+		background-size: cover;
+		height: 100%;
+	}
 	.technology-stack-content {
-		width: 80%;
-		padding-top: 15px;
-		padding-right: 5px;
-		padding-left: 10px;
-
-		gap: 1rem;
+		grid-template-columns: 1fr;
 	}
 
-	.technology-stack-box {
-		padding: 5px;
+	h2 {
+		color: white;
+		padding-bottom: 50px;
 	}
 }
