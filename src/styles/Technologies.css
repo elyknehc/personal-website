@@ -59,14 +59,15 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 	.technology-stack-content {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		padding: 0px;
-		gap: 0px;
+		width: 80%;
+		padding-top: 15px;
+		padding-right: 5px;
+		padding-left: 10px;
+
+		gap: 1rem;
 	}
 
-	technology-stack-box {
-		width: 100%;
-		padding: 0px;
+	.technology-stack-box {
+		padding: 5px;
 	}
 }

@@ -29,7 +29,7 @@ function Home() {
 							loop={true}
 							typeSpeed={75}
 							deleteSpeed={80}
-							delaySpeed={1200}
+							delaySpeed={100}
 						/>
 					</span>
 				</p>

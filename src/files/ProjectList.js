@@ -28,4 +28,10 @@ export const projectList = [
 		skills: "Java, Graphs",
 		link: "https://github.com/elyknehc/graphpathfinder",
 	},
+	// {
+	// 	// name: "New Project",
+	// 	// image: Project4,
+	// 	// skills: "Future",
+	// 	// link: "www.google.ca",
+	// },
 ];
