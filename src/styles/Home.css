@@ -12,11 +12,11 @@
 .portrait {
 	height: 250px;
 	clip-path: circle();
-	border-color: black;
 }
 
 .home {
 	width: 100%;
+	min-width: 1000px;
 	align-items: center;
 	font-family: "Arial", sans-serif;
 }
@@ -26,13 +26,12 @@
 	height: calc(100vh - 100px);
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
 	background-color: #95908f;
 	background-image: url("../files/banner.png");
 	color: #eff7f7;
-	padding-bottom: 5px;
+	padding-top: 30px;
 }
 
 .skills {
@@ -59,7 +58,10 @@
 
 @media only screen and (max-width: 600px) {
 	.portrait {
-		height: 200px;
+		position: fixed;
+		width: 100%;
+		max-width: 200px;
+		height: auto;
 	}
 	.about h2 {
 		font-size: 40px;
