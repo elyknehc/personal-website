@@ -16,12 +16,12 @@
 
 .home {
 	width: 100%;
-	min-width: 1000px;
 	align-items: center;
 	font-family: "Arial", sans-serif;
 }
 
 .about {
+	padding-top: 3rem;
 	width: 100%;
 	height: calc(100vh - 100px);
 	display: flex;
@@ -31,7 +31,6 @@
 	background-color: #95908f;
 	background-image: url("../files/banner.png");
 	color: #eff7f7;
-	padding-top: 30px;
 }
 
 .skills {
