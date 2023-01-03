@@ -1,3 +1,7 @@
+.home {
+	width: 100%;
+	align-items: center;
+}
 .button {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	background: green;
@@ -14,20 +18,14 @@
 	clip-path: circle();
 }
 
-.home {
-	width: 100%;
-	align-items: center;
-	font-family: "Arial", sans-serif;
-}
-
 .about {
-	padding-top: 3rem;
 	width: 100%;
 	height: calc(100vh - 100px);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 	background-color: #95908f;
 	background-image: url("../files/banner.png");
 	color: #eff7f7;
@@ -55,19 +53,15 @@
 	margin: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-	.portrait {
-		position: fixed;
-		width: 100%;
-		max-width: 200px;
-		height: auto;
+@media only screen and (max-width: 800px) {
+	.about {
+		padding-top: 50px;
 	}
 	.about h2 {
 		font-size: 40px;
 	}
 
 	.about .prompt {
-		margin-top: 10px;
 		font-size: 20px;
 		width: 80%;
 	}
@@ -77,6 +71,32 @@
 	}
 	.list {
 		padding: 0;
+	}
+
+	.skills h2 {
+		font-size: 30px;
+	}
+}
+
+.icons {
+	cursor: pointer;
+}
+
+@media only screen and (max-height: 700px) {
+	.about {
+		padding-top: 50px;
+	}
+	.about h2 {
+		font-size: 40px;
+	}
+
+	.about .prompt {
+		font-size: 20px;
+		width: 80%;
+	}
+
+	.skills {
+		text-align: center;
 	}
 
 	.skills h2 {
