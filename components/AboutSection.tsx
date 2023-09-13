@@ -46,9 +46,9 @@ const AboutSection = () => {
 						<br />
 						<p>
 							I have a wide range of hobbies and passions that keep me busy.
-							From reading, playing sports, traveling, to making YouTube videos,
-							I am always seeking new experiences and love to keep myself
-							engaged and learning new things.
+							From reading, playing sports, to writing blogs, I am always
+							seeking new experiences and love to keep myself engaged and
+							learning new things.
 						</p>
 						<br />
 						<p>
@@ -59,7 +59,7 @@ const AboutSection = () => {
 							and that&#39;s what I strive to do, I have a passion for
 							technology and a desire to always push the limits of what is
 							possible. I am excited to see where my career takes me and am
-							always open to new opportunities. 🙂
+							always open to new opportunities!
 						</p>
 					</div>
 					<div className="text-center md:w-1/2 md:text-left">

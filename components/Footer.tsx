@@ -37,7 +37,7 @@ const Footer = () => {
 						/>
 					</a>
 					<a
-						href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
+						href="https://www.youtube.com/channel/UCJtam1AKqoTl_R5RQzEPi7w"
 						rel="noreferrer"
 						target="_blank"
 					>
