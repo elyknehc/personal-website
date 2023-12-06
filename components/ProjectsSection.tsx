@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
 	{
+		name: "Whos That Pokemon",
+		description:
+			"Whos That Pokemon is a full-stack game that tests your knowledge of Pokemon. You can save pokemon with a login and learn more about the pokemon that you did not know.  Created with React.js, Next.js, Tailwind CSS.",
+		image: "/whosthatpokemon.png",
+		github: "",
+		link: "https://pokemon2-0-elyknehc.vercel.app/",
+	},
+	{
 		name: "Westernflow",
 		description:
 			"Westernflow is a site that helps Western University students with course selection and course reviews. Created with React.js, Go, MongoDB.",
