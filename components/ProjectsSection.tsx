@@ -22,14 +22,6 @@ const projects = [
 		link: "https://github.com/westernflow/westernflow",
 	},
 	{
-		name: "Western Esports Gaming Association Website",
-		description:
-			"Created and launched the official website for the Western Electronic Gaming Association.        Created with Next.js, Tailwind CSS.",
-		image: "/wega.png",
-		github: "https://github.com/ArsalaanAli/wegawebsite",
-		link: "https://github.com/ArsalaanAli/wegawebsite",
-	},
-	{
 		name: "Western Maps",
 		description:
 			"Western Maps is a GIS system that displays floorplans of various buildings on campus and allows users to mark down points of interest. Created with Java, Java Swing.",
