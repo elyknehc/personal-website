@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,13 +49,13 @@ const ProjectsSection = () => {
 								<div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
 									<div className=" md:w-1/2">
 										<Link href={project.link}>
-											<Image
+											<img
 												src={project.image}
 												alt=""
 												width={1000}
 												height={1000}
 												className="rounded-xl shadow-xl hover:opacity-70"
-											/>
+											></img>
 										</Link>
 									</div>
 									<div className="mt-8 md:w-1/2">
