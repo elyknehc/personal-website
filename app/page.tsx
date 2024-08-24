@@ -65,8 +65,7 @@ export default function Home() {
 					<a
 						href="/projects"
 						className="text-blue-400 underline hover:text-blue-600"
-						tar
-						get="_blank"
+						target="_blank"
 					>
 						projects.
 					</a>
