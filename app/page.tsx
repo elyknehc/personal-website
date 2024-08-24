@@ -41,7 +41,7 @@ export default function Home() {
 					alt="headshot"
 					width={250}
 					height={250}
-					className="ml-36 rounded-full"
+					className="ml-24 rounded-full"
 				/>
 			</div>
 
@@ -65,7 +65,8 @@ export default function Home() {
 					<a
 						href="/projects"
 						className="text-blue-400 underline hover:text-blue-600"
-						target="_blank"
+						tar
+						get="_blank"
 					>
 						projects.
 					</a>
