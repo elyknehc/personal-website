@@ -41,7 +41,7 @@ export default function Home() {
 					alt="headshot"
 					width={250}
 					height={250}
-					className="ml-20 rounded-full ml-4"
+					className="ml-36 rounded-full"
 				/>
 			</div>
 
