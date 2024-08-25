@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import { ThemeProvider } from "next-themes";
 
 const projects = [
 	{
@@ -42,9 +43,10 @@ const projects = [
 const ProjectsSection = () => {
 	return (
 		<section id="projects">
+			<ThemeProvider attribute="class" />
 			<h1 className="my-10 text-center font-bold text-4xl">
 				Projects
-				<hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+				<hr className="w-6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded"></hr>
 			</h1>
 
 			<div className="flex flex-col space-y-28 mb-8">
