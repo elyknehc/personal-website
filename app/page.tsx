@@ -1,16 +1,40 @@
+"use client"; // this is a client component
 import React from "react";
 import Image from "next/image";
+import { useTheme } from "next-themes";
+import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import {
 	AiOutlineGithub,
-	AiOutlineTwitter,
 	AiOutlineLinkedin,
-	AiOutlineYoutube,
 	AiOutlineMail,
 } from "react-icons/ai";
 
 export default function Home() {
+	const { systemTheme, theme, setTheme } = useTheme();
+	const currentTheme = theme === "system" ? systemTheme : theme;
+
 	return (
-		<main className="content-center mt-5 flex flex-col items-center justify-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+		<main className="content-center mt-5 flex flex-col items-center justify-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl relative">
+			{/* Theme Toggle Button */}
+			<div className="absolute top-5 right-5">
+				{currentTheme === "dark" ? (
+					<button
+						onClick={() => setTheme("light")}
+						className="bg-slate-100 p-2 rounded-xl"
+					>
+						<RiSunLine size={25} color="black" />
+					</button>
+				) : (
+					<button
+						onClick={() => setTheme("dark")}
+						className="bg-slate-100 p-2 rounded-xl"
+					>
+						<RiMoonFill size={25} />
+					</button>
+				)}
+			</div>
+
+			{/* Main Content */}
 			<div className="mt-5 flex flex-col md:flex-row items-center justify-between">
 				<div className="text-center md:text-left">
 					<h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-3xl font-semibold mb-4">
