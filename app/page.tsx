@@ -10,17 +10,20 @@ import {
 export default function Home() {
 	return (
 		<main className="content-center mt-5 flex flex-col items-center justify-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
-			<div className="mt-5 text-3xl font-semibold flex items-center">
-				<div>
-					👋 Nice to meet you, I'm Kyle Chen
-					<div className="flex flex-row items-center mt-4 ml-8 space-x-2 mb-1">
+			<div className="mt-5 flex flex-col md:flex-row items-center justify-between">
+				<div className="text-center md:text-left">
+					<h1 className="text-2xl md:text-3xl font-semibold mb-4">
+						👋 Nice to meet you, I'm Kyle Chen
+					</h1>
+					<div className="flex justify-center md:justify-start space-x-4 mt-4">
 						<a
 							href="https://github.com/elyknehc"
 							rel="noreferrer"
 							target="_blank"
+							className="transform hover:-translate-y-1 transition-transform"
 						>
 							<AiOutlineGithub
-								className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+								className="text-neutral-500 dark:text-neutral-100"
 								size={30}
 							/>
 						</a>
@@ -28,21 +31,24 @@ export default function Home() {
 							href="https://www.linkedin.com/in/kyleechen"
 							rel="noreferrer"
 							target="_blank"
+							className="transform hover:-translate-y-1 transition-transform"
 						>
 							<AiOutlineLinkedin
-								className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+								className="text-neutral-500 dark:text-neutral-100"
 								size={30}
 							/>
 						</a>
 					</div>
 				</div>
-				<Image
-					src="/Headshot2.jpg"
-					alt="headshot"
-					width={250}
-					height={250}
-					className="ml-24 rounded-full"
-				/>
+				<div className="mt-6 md:mt-0">
+					<Image
+						src="/Headshot2.jpg"
+						alt="headshot"
+						width={250}
+						height={250}
+						className="rounded-full md:ml-24"
+					/>
+				</div>
 			</div>
 
 			<div className="text-lg mt-8">
