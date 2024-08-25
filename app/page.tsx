@@ -5,6 +5,7 @@ import {
 	AiOutlineTwitter,
 	AiOutlineLinkedin,
 	AiOutlineYoutube,
+	AiOutlineMail,
 } from "react-icons/ai";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
 		<main className="content-center mt-5 flex flex-col items-center justify-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
 			<div className="mt-5 flex flex-col md:flex-row items-center justify-between">
 				<div className="text-center md:text-left">
-					<h1 className="text-2xl md:text-3xl font-semibold mb-4">
+					<h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-3xl font-semibold mb-4">
 						👋 Nice to meet you, I'm Kyle Chen
 					</h1>
 					<div className="flex justify-center md:justify-start space-x-4 mt-4">
@@ -34,6 +35,17 @@ export default function Home() {
 							className="transform hover:-translate-y-1 transition-transform"
 						>
 							<AiOutlineLinkedin
+								className="text-neutral-500 dark:text-neutral-100"
+								size={30}
+							/>
+						</a>
+						<a
+							href="mailto:kylechen.hba2026@ivey.ca"
+							rel="noreferrer"
+							target="_blank"
+							className="transform hover:-translate-y-1 transition-transform"
+						>
+							<AiOutlineMail
 								className="text-neutral-500 dark:text-neutral-100"
 								size={30}
 							/>
@@ -63,7 +75,8 @@ export default function Home() {
 				</div>
 				<div className="text-lg">
 					I have also worked at <span className="font-bold">Blueguardian </span>{" "}
-					as a software developer intern, helping with their chatbot technology.
+					as a <span className="font-bold"> Software Developer Intern</span>,
+					developing their chatbot assistant.
 				</div>
 				<div className="mt-5">
 					{" "}
@@ -99,9 +112,8 @@ export default function Home() {
 							href="mailto:kylechen.hba2026@ivey.ca"
 							className="text-blue-400 underline hover:text-blue-600"
 						>
-							reach out
+							reach out!
 						</a>
-						!
 					</div>
 				</div>
 			</div>
