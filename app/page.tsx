@@ -93,12 +93,33 @@ export default function Home() {
 				<span className="font-bold">Business Administration </span> at the
 				University of Western Ontario. I will be graduating in May, 2026!
 				<div className="text-lg mt-5">
-					Previously, I interned at <span className="font-bold">RBC </span>as a{" "}
-					<span className="font-bold"> Software Developer Intern </span> in the
-					Legal Technology team.
+					Previously, I interned at{" "}
+					<span className="font-bold bg-blue-400">
+						<a
+							target="_blank"
+							href="https://www.rbc.com/"
+							className="hover:text-blue-600 hover:underline"
+							rel="noreferrer"
+						>
+							RBC
+						</a>
+					</span>{" "}
+					as a <span className="font-bold"> Software Developer Intern </span> in
+					the Legal Technology team.
 				</div>
 				<div className="text-lg">
-					I have also worked at <span className="font-bold">Blueguardian </span>{" "}
+					I have also worked at{" "}
+					<span className="font-bold bg-blue-400">
+						{" "}
+						<a
+							target="_blank"
+							href="https://blueguardian.ca/"
+							className="hover:text-blue-600 hover:underline"
+							rel="noreferrer"
+						>
+							Blueguardian
+						</a>
+					</span>{" "}
 					as a <span className="font-bold"> Software Developer Intern</span>,
 					developing their chatbot assistant.
 				</div>
@@ -107,11 +128,12 @@ export default function Home() {
 					If you are interested, here are some of my previous{" "}
 					<a
 						href="/projects"
-						className="text-blue-400 underline hover:text-blue-600"
+						className="font-bold bg-blue-400 hover:text-blue-600 hover:underline"
 						target="_blank"
 					>
-						projects.
+						projects
 					</a>
+					.
 				</div>
 				<div className="mt-5">
 					{" "}
@@ -127,14 +149,14 @@ export default function Home() {
 						<li>
 							{" "}
 							📖 Learning about new technologies: currently learning about
-							Machine Learning!{" "}
+							machine learning!{" "}
 						</li>
 					</div>
 					<div className="mt-5 text-lg">
 						Always happy to meet new people and chat, feel free to{" "}
 						<a
 							href="mailto:kylechen.hba2026@ivey.ca"
-							className="text-blue-400 underline hover:text-blue-600"
+							className="font-bold bg-blue-400 hover:text-blue-600 hover:underline"
 						>
 							reach out!
 						</a>
