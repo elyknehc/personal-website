@@ -7,3 +7,26 @@
 body {
 	font-family: "Mada", sans-serif;
 }
+
+@keyframes wave {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.wave-animation {
+	display: inline-block;
+	animation: wave 1.5s ease-in-out infinite;
+}

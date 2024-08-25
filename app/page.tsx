@@ -37,7 +37,8 @@ export default function Home() {
 			<div className="mt-5 flex flex-col md:flex-row items-center justify-between">
 				<div className="text-center md:text-left">
 					<h1 className="text-4xl sm:text-4xl md:text-3xl lg:text-3xl font-semibold mb-4">
-						👋 Nice to meet you, I'm Kyle Chen
+						<span className="wave-animation">👋</span> Nice to meet you, I'm
+						Kyle Chen
 					</h1>
 					<div className="flex justify-center md:justify-start space-x-4 mt-4">
 						<a
