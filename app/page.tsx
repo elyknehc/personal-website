@@ -15,7 +15,6 @@ export default function Home() {
 
 	return (
 		<main className="content-center mt-5 flex flex-col items-center justify-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl relative">
-			{/* Theme Toggle Button */}
 			<div className="fixed bottom-4 right-4 md:absolute md:right-5 md:top-5">
 				{currentTheme === "dark" ? (
 					<button
