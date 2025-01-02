@@ -124,6 +124,11 @@ export default function Home() {
 					developing their chatbot assistant.
 				</div>
 				<div className="mt-5">
+					I will be joining RBC in Summer 2025 for the{" "}
+					<span className="font-bold"> Amplify Program </span> as a{" "}
+					<span className="font-bold"> Developer</span>!
+				</div>
+				<div className="mt-5">
 					{" "}
 					If you are interested, here are some of my previous{" "}
 					<a
@@ -142,14 +147,18 @@ export default function Home() {
 						<li>
 							{" "}
 							🍁 Being a huge Toronto Maple Leafs fan{" "}
-							<span className="text-xs">Go Leafs Go! - #88 Willy</span>
+							<span className="text-xs">Willy Nylander is the goat</span>
 						</li>
 						<li> 🧑‍🍳 Trying out new recipes </li>
-						<li> 🏃‍♂️ Going on runs </li>
+						<li> 🏃‍♂️ Going on runs: 2025 half marathon is the goal! </li>
 						<li>
 							{" "}
 							📖 Learning about new technologies: currently learning about
 							machine learning!{" "}
+						</li>
+						<li>
+							{" "}
+							🎯 My goal for 2025 is to learn more often and make more commits!{" "}
 						</li>
 					</div>
 					<div className="mt-5 text-lg">
