@@ -14,7 +14,7 @@ const Footer = () => {
 			<div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
 				<div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
 					© 2024 Kyle Chen<a href="/" className="hover:underline"></a>
-					<div> | Last Updated: August 2024</div>
+					<div> | Last Updated: January 2025</div>
 				</div>
 
 				<div className="flex flex-row items-center justify-center space-x-2 mb-1">
