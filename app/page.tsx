@@ -124,11 +124,6 @@ export default function Home() {
 					developing their chatbot assistant.
 				</div>
 				<div className="mt-5">
-					I will be joining RBC in Summer 2025 for the{" "}
-					<span className="font-bold"> Amplify Program </span> as a{" "}
-					<span className="font-bold"> Developer</span>!
-				</div>
-				<div className="mt-5">
 					{" "}
 					If you are interested, here are some of my previous{" "}
 					<a
